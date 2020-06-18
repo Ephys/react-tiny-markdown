@@ -1,0 +1,30 @@
+{
+  "name": "@ephys/react-tiny-markdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ephys/react-tiny-markdown.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ephys/react-tiny-markdown/issues"
+  },
+  "homepage": "https://github.com/Ephys/react-tiny-markdown#readme",
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "dependencies": {
+    "autolinker": "^3.14.1",
+    "markdown-ast": "^0.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.38",
+    "react": "^16.13.1"
+  }
+}

@@ -1,0 +1,58 @@
+.rtm-markdown {
+  blockquote {
+    margin-left: 0;
+    padding-left: 1em;
+    border-left: 2px currentColor solid;
+    font-style: italic;
+  }
+
+  code,
+  pre {
+    font-family: Monaco, Menlo, Consolas, 'Courier New', monospace;
+    border: 1px solid #dddddd;
+    padding: 0.1rem 0.4rem;
+    border-radius: 0.2rem;
+
+    /* stylelint-disable-next-line property-no-vendor-prefix */
+    -webkit-font-variant-ligatures: none;
+    font-variant-ligatures: none;
+    tab-size: 4;
+  }
+
+  pre {
+    white-space: pre-wrap;
+  }
+
+  code {
+    background: #f8f8f8;
+    color: #e01e5a;
+    padding: 2px 3px 1px;
+    white-space: normal;
+  }
+
+  pre > code {
+    background: transparent;
+    color: inherit;
+    white-space: inherit;
+    padding: 0;
+    border: 0;
+  }
+
+  .list {
+    list-style: none;
+  }
+
+  ul,
+  ol {
+    padding: 0 0 0 24px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  hr {
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: currentColor;
+  }
+}
