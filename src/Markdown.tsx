@@ -1,5 +1,3 @@
-// @flow
-
 import * as React from 'react';
 import markdown from 'markdown-ast';
 import AutoLinker from './Autolinker';
